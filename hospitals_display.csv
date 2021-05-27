@@ -1,0 +1,87 @@
+ID,Doctor_Name,Hospital_Name,Hospital_Address,Doctor_category,MobileNo,Timings
+1001A,RamaKrishna Hospital,Dr.Ramakrishna,"House No 6-2-299, Pinjerla Street, Hanamkonda, Warangal - 506001, Near Vijaya Talkies",physiotherapist,9849485100,6:00PM - 9:00PM
+1005A,Kavtitha Murali Pain Clinic & Physciotherpy Center,Dr.M.Kavitha,"Door No 5-9-63/A/D, Kishanpura, Hanamkonda, Warangal - 506001, Behind Green Square Plaza?(Map)",physiotherapist,7947396747,9:30AM-8:30PM
+1006A,Dr Swapna Physciotherpy Home Care Services,Dr.Swapna,"H No 16-7-201, Dayanand Colony, Warangal, Warangal - 506002, Near Grain Market",physiotherapist,7947397274,9:00AM-8:00PM
+1002A,Vinayaka Neuro Multi Speciality Center,Dr.Anirudh Deshpande,"Door No 6-3-26, Ground Floor, Subhodaya Complex, Vijaya Talkies Road, Hanamkonda, Warangal - 506001, Near Hanuman Temple",neurologist,9959711269,9:00AM-9:30pm
+1007A,Regain Physiotherpy & Rehabiltation Center,Dr.Kiran,"H No: 25-11-123, Kazipet, Main Road, Bapuji Nagar, Hanamkonda, Warangal - 506001, Opp: Indane Gas Office",physiotherapist,7330778577,9:00AM-8:00PM
+1008A,Devanshi Pysiotherapy & Rehabiltation Clinic,Dr.Suman Sidda,"H.no 16-3-916/A, Fort Road, Warangal HO, Warangal - 506002, Vidya Nagar Colany",physiotherapist,7947397219,4:00PM-9:30PM
+1009A,Latha Venkat Ortho & General Clinic,Dr.K.Venkataswamy,"House No 11-26-198, M G Road, Warangal - 506002, Opposite MGM Hospital 2nd Gate, Beside Warta Office?",Orthopedic,9550125222,Open 24hrs
+1010A,Veena Physiotherpy & Rehabiltation Center,Dr.Thoutam Vinay Kumar,"H.no:16-1-41/6/B, C/o Veena Physiotherapy & Rehabilitation Clinic, House No 16-1-781, Karimabad Road, Warangal Ho, Warangal - 506002, Near Mini Bridge Down?",physiotherapist,9949658351,"9:00AM-12:30Pm,4:00PM-9:00pm"
+1011A,Ganga Speciality Hospital,Dr.Vijay Kumar,"Door No 16-5-196, Warangal Bus Stand Road, Grainmarket, Warangal - 506002, Opposite Venkatrama Theatre",physiotherapist,9550911050,Open 24hrs
+1012A,Warangal hospital,Dr.Vinay,"11-290, Narsampet Road, Pochamma Maidan, Warangal - 506002",physiotherapist,9866172345,Open 24hrs
+1003A,Hitam Crdiac Center,Dr.N.Venkanna,"Door No 1-8-4, Balasamudram, Hanamkonda, Warangal - 506001, Behind Asian Sridevi Mall, Hanuman Temple Lane",Cardiologist,7947396664,10:00AM-8:00PM
+1013A,Sreeram Heart Center,Dr.Ramakrishna Reddy Malladi,"H No 2-4-161, Ram Nagar, Hanamkonda, Warangal - 506001, In DR Sreeram Reddy Clinics, Old Bus Depot Road?",Cardiologist,7947397204,9:00AM-10:00PM
+1014A,Sri Sri Cardiac Center,Dr.Siddarth A Prasad,"Hanuman Temple Road, Hanamkonda, Warangal - 506001, Near Hauman Temple Or Opposite Sri Shishu Mandir,Vijay Talkies Road",Cardiologist,7947396874,9:00AM-6:00PM
+1015A,Ajara Hospital,Dr.Sri Laxmi,"Mulugu Road, Hanamkonda, Warangal - 506001, Mulugu Road Opp Sub Station",Cardiologist,9391009705,Open 24hrs
+1016A,Adithya Hospital,Dr.Aditya,"ADITYA HOSPITAL, Hanamkonda, Warangal - 506001, Kishanpura, Near Petrol Pump, Opposite Police Parade Grounds?",Cardiologist,8367039108,Open 24hrs
+1017A,Guardian MultiSpeciality Hospital,Dr.Kali Prasad,"House No 3-1-119, Mulugu X Road, Rangampet, Warangal - 506007, Opposite L B College",neurologist,8008802282,Open 24hrs
+1018A,Jaya Hospital,Dr.Jaya,"Vijaya Talkies Road, Hanamkonda, Warangal - 506001, Hanamkonda Chowrasta?",neurologist,9866611333,Open 24hrs
+1019A,Laxmi Narasimha Hospital,Dr.Laxmi,"Door No 2-2-316, Nainagar, Hanamkonda, Warangal - 506001, Beside Pushpanjali Function Hall?",Dermatologist,9550978696,Open 24hrs
+1004A,Aadhya Skin Care & Laser Clinic,Dr.Srikanth Satthu,"Door No 6-2-70/1/1, Kakaji Colony, Hanamkonda, Warangal - 506001, Opposite Veena Medicare Hospital",Dermatologist,7947396686,10:00AM-8:00PM
+1020A,Mallikkarjuna Laser Eye & Skin Care Hospital,Dr.K.V.Mallikkarjuna,"Warangal, Kotthawada, Warangal Ho, Warangal - 506002",Dermatologist,7947396527,Open 24hrs
+1021A,Dr.Ashwinis Derma Care Clinic,Dr.Ashwini,"Door No 6-2-37/1, Kakaji Colony, Hanamkonda, Warangal - 506001, Beside Lane Of S R Junior College?",Dermatologist,7947396616,"12:00PM-4:00PM,6:00Pm-8:30PM"
+1022A,Deepak Skin And Laser Cosmotic Center,Dr.Deepak,"House No 7-1-168, Hanuman Temple Road, Hanamkonda, Warangal - 506001, Opposite New Bus Stand?",Dermatologist,7947396630,9:00AM-10:00PM
+1023A,Dr.Anil's Skin Hair and Laser Clinic,Dr.Kondabathini Anil Kumar,"Ho.no.9-2-26, Jayaprakash Narayan Road, Girmajipet, Warangal - 506002, Beside Syndicate Bank",Dermatologist,7947396336,10:00AM-9:00PM
+1024A,Sri Lasya Hospital,Dr.P.Narsingha Rao,"House no:6/2/61,Kakaji Colony,Vijaya Talkies Road,Hanamkonda,Warangal-506001",Dermatologist,9848665538,Open 24hrs
+1025A,Venkateshwara Homeo Clinic,Dr.N.Rambabu,"Door No 2-6-1415, Bhavani Nagar, NGOs Colony Main Road, Hanamkonda, Warangal - 506001, Beside Andhra Bank ATM",Dermatologist,9849662401,Open 24hrs
+1026A,Cutis Skin Care & Health Clinic,Dr.L.Krupadanan,"Plot No 87, Kakaji Colony, New Bus Stand Road, Hanamkonda, Warangal - 506001, Beside S R College",Dermatologist,7947396416,10:00AM-6:00PM
+1027A,R K Multispeciality Hospital,Dr.Ravi Kumar,"Door No 1-9-511/2, Julywada, Basith Nagar Road, Hanamkonda, Warangal - 506001, Beside DIG Bunglow Lane",Dermatologist,7947476939,Open 24hrs
+1028A,Kalyani Hospital,Dr.Kalyani,"House No 6-1-69, Stadium Road, Hanamkonda, Warangal - 506001, Opposite Sridevi Theatre",Orthopedic,7949396554,Open 24hrs
+1017A,Guardian MultiSpeciality Hospital,Dr.Kali Prasad,"House No 3-1-119, Mulugu X Road, Rangampet, Warangal - 506007, Opposite L B College",Orthopedic,8008802282,Open 24hrs
+1029A,Sowparnika Bone and Joint Clinic,Dr.N.Srinivas Reddy,"Door No 2-6-966/2, KLN Reddy Colony, Hanamkonda, Warangal - 506001, Near Kalyani Function Hall",Orthopedic,7947396521,Monday:- 11:00 Am - 5:00 Pm
+1030A,MaxCare Hospital,Dr.Sashi,"Door No 6-1-236, Hanamkonda, Warangal - 506001, Opposite Kuda Office, Near Ashoka Hotel?",Orthopedic,7947396583,Open 24hrs
+1031A,Life Care Maternity & Ortho Clinic,Dr.K.Ram Mohan,"House No 7-1-117, Bus Stand Circle, Hanamkonda, Warangal - 506001, Towards Balasamudram Road",Orthopedic,7947439053,Open 24hrs
+1032A,Amrutha Multispeciality Hospital,Dr.Rakesh,"H.no 6-2-84, Vijaya Talkies Road, Kakaji Colony, Hanamkonda, Warangal - 506001, BESIDE Vijaya Talkies?",Orthopedic,9393951289,Open 24hrs
+1018A,Jaya Hospital,Dr.Prakash,"Vijaya Talkies Road, Hanamkonda, Warangal - 506001, Hanamkonda Chowrasta?",Orthopedic,9866611333,Open 24hrs
+1033A,Sri Sharanya Multispeciality Hospital,Dr.M.Murthy,"H.No.2-1-1187, Naimnagar, Hanamkonda, Warangal - 506001, Near Gopalpur Cross Road?",Orthopedic,9390672894,Open 24hrs
+1034A,Sharath Laser Eye Hospital,Dr.Sharath,"Door No 3-1-119, Hanamkonda, Warangal - 506001, Near Alankar Junction, Kakatiya Colony",ophthalmologist,7947351694,Open 24hrs
+1035A,Sandeep Eye Hospital,Dr.G.Sandeep Kumar,"H.No: 11-21-1, 80Ft.Road, Auto Nagar, Kottawada, Warangal - 506002, Beside Bharathi Degree College",ophthalmologist,7947396768,"10:00AM - 7:00PM,Sunday closed"
+1036A,Sri Radhamma Memorial Eye Hospital,Dr.D.VenkataSwamy,"Door No 1-1-873, Siddhartha Nagar, Road No 3, Kazipet, Warangal - 506003, Oppostie Fathima Complex",ophthalmologist,9652649226,9:00AM-9:00PM
+1037A,Kakatiya Eye Hospital,Dr.P.Praveen,"Door No 2-1, Pinjarla Street, Hanamkonda, Warangal - 506001, Opposite Vijaya Talkies,Opp Joyalukas Jewellery",ophthalmologist,9396560603,9:30AM-6:00PM
+1038A,Vasan Eye Care Hospital,Dr.M.Sridhar,"Door No 6-1-135, Hanamkonda, Warangal - 506001, Near Government Maternity Hospital, Lashkar Bazar",ophthalmologist,8702556000,9:00AM-8:00PM
+1039A,Netra Optical Hospital,Dr.Santhosh Kumar,"Main Road, Parkal, Parkal, Warangal - 506164, Opp Parkal Bus Stand",ophthalmologist,9989470903,Open 24hrs
+1040A,Dr.Ramay's Eye Hospital,Dr.K.Ramya,"House No: 1-7-1832/C, Balasamudram New Bus Stand Road, Hanamkonda, Warangal - 506001, Beside Fire Station",ophthalmologist,7949464763,10:00 am - 2:00 pm 4:00 pm - 7:00 pm
+1020A,Mallikkarjuna Laser Eye & Skin Care Hospital,Dr.K.V.Mallikkarjuna,"Warangal, Kotthawada, Warangal Ho, Warangal - 506002",ophthalmologist,7947396527,Open 24hrs
+1041A,Dr.Gouda Ramesh Ent Center,Dr.Gouda Ramesh,"House No 7-1-64, Hanamkonda, Warangal - 506001, Beside Asian Sridevi Mall, Opposite Kalyani Hospital, Sai Nagar Colony",Ent,7947396550,Open 24hrs
+1042A,Vijaya Ent Endoscopic Center,Dr.Ch.Vijay Kumar,"Door No 6-3-22, Hanamkonda, Warangal - 506001, Opposite Hanuman Temple, New Bus Stand Road",Ent,7947396636,10:00 am - 9:00 pm
+1043A,Aravindha ENT and Neuro Super Speciality Hospital,Dr.Aravindha,"Plot No A-13, Opp Hayagriva Chary Ground, Hanamkonda, Warangal - 506001, Near Balasamudram",Ent,7947396864,Open 24hrs
+1044A,Sivaganga Laser ENT Hospital,Dr.Vinay,"# 15-1-29/1, Srinivasa Colony, Warangal HO, Warangal - 506002, Opp:.MGM Hospital",Ent,9177438818,11:30 am - 9:30 pm
+1045A,Dr.Raju ENT Hospital,Dr.Raju,"Hanuman Temple Road, Hanamkonda, Warangal - 506001, Opp: BUS STAND",Ent,7799294141,Open 24hrs
+1046A,Koorapati Laproscopy Center,Dr.Korapati,"Door No 6-1-80, KUDA Lane, Hanamkonda, Warangal - 506001, Opposite Asian Sridevi Mall?",Ent,8897656456,Open 24hrs
+1047A,Vishnu Sahasra Hospital,Dr.Vishu Kumar,"1-8-81, Balasamudram, Hanamkonda, Warangal - 506001, Near Swimming Pool",Ent,9515378555,Open 24hrs
+1048A,Rainbow Endo Care Hospital,Dr.K.Sandhya Rani,"House No 1-8-205, Balasamudram Besides Shine School, Balasamudram, Warangal - 506001, Asian Mall Backside, Swimming Pool Lane, Besides Shine School?",Endocrinologists,7947396958,Open 24hrs
+1049A,Kesava Endocrinology Hospital,Dr.Keshava,"House No 6-2-116, Kakaji Colony, Hanamkonda, Warangal - 506001, Back Side to Jaya Hospital",Endocrinologists,6302761626,"9:30 am - 2:00 pm, 6:30 pm - 8:00 pm"
+1015A,Ajara Hospital,Dr.Sri Laxmi,"Mulugu Road, Hanamkonda, Warangal - 506001, Mulugu Road Opp Sub Station",Endocrinologists,9391009705,Open 24hrs
+1018A,Jaya Hospital,Dr.Prakash,"Vijaya Talkies Road, Hanamkonda, Warangal - 506001, Hanamkonda Chowrasta?",Endocrinologists,9866611333,Open 24hrs
+1042A,Vijaya Ent Endoscopic Center,Dr.Vijay Kumar,"C/o Vijay ENT Endoscopic Centre, Door No 6-3-22, Hanamkonda, Warangal - 506001, Opposite Hanuman Temple, New Bus Stand Road",Endocrinologists,8143269269,10:00 am - 12:30 pm
+1050A,Srinivasa Kidney Center,Dr.M.Munni Prasad,"Door No 3-2-72, Hanamkonda, Warangal - 506001, Opposite Thousand Pillers Temple, Rayapura",Nephrologist,8886193963,8:00 am - 9:00 pm
+1051A,Warangal Kidney Center,Dr.G.K.Geetha,"House No 9-6-52, Mandi Bazar. Beside Bharath Petrol Pump, Jpn Road, Warangal - 506002, Near Mahabubiya High School",Nephrologist,9849241117,Open 24hrs
+1030A,MaxCare Hospital,Dr.Sashi,"Door No 6-1-236, Hanamkonda, Warangal - 506001, Opposite Kuda Office, Near Ashoka Hotel?",Nephrologist,7947396583,Open 24hrs
+1052A,Lalitha Sri Kidney Center,Dr.Lalitha,"House No 11-26-194, Kattamallu Complex, Ground Floor, MGM Road, M G Road, Warangal - 506002, Beside : Mourya Hospital, Near Vaartha Office",Nephrologist,7947396655,Open 24hrs
+1053A,Muthya Kidney Center,Dr.Muthya Kumar,"House No 6-2-282, Kakaji Colony, Hanamkonda, Warangal - 506001, Opposite Vijaya Talkies",Nephrologist,7947386857,9:00 am - 9:30 pm
+1054A,City Neuro Center,Dr.Gautam Kumar,"House no, New Bus Stand Road-Hanamkonda, Hanamkonda, Warangal - 506001, Beside shreya Hotel",Neurologist,7947397328,9:00 am - 9:00 pm
+1055A,Surya Teja Neuro Hospital,Dr.Sandeep Gampa,"Lane Beside Vijaya Talkies, Hanamkonda, Warangal - 506001, Near Vijaya Talkies, Kakaji Colony",Neurologist,7947396835,11:00 am - 7:30 pm
+1056A,Kavitha Reddy Dental Hospital,Dr.K.Kavitha Reddy,"Door No 6-2-283, Hanamkonda, Warangal - 506001, Opposite Vijaya Talkies, Kakaji Colony",Dentist,9000944131,Open 24hrs
+1057A,Vinayaka Dental Clinic,Dr.Shireesh,"Hno 7-1-286, Kakaji Nagar Colony, Hanamkonda, Warangal - 506001, Opp Masid Laxmipuram",Dentist,7947351708,10:00 am - 9:00 pm
+1058A,K & H Dental Solutions,Dr.Karthik,"Door No 6-2-305, 1st Floor, Vijaya Talkies Road, Hanamkonda, Warangal - 506001, Opposite to Krishna Children Hospital, Near Hanuman Temple",Dentist,7947396814,10:30 am - 8:30 pm
+1059A,Rainbow Dental Care,Dr.V.S.Sashikanth,"Kishanpura, Naimnagar, Hanamkonda, Warangal - 506001, Opposite Vagdevi College",Dentist,7947397316,10:00 am - 8:00 pm
+1060A,Kakatiya Multispeciality Dental Hospital,Dr.Aruna,"House No 6-2-264, Kakaji Colony, Hanamkonda, Warangal - 506001, Opposite Vijaya Talkies",Dentist,7947396529,"10:00 am - 9:00 pm,Sunday 10:00 am - 2:00 pm"
+1061A,Gls Implant Dental Laser,Dr.Kishore,"Opposite 2nd Busdepo, Beside Venkateshwara Imaging Centre, Hanamkonda, Warangal - 506001, Kakaji Colony ",Dentist,9550686566,Open 24hrs
+1062A,Aishwarya Dental Clinic,Dr.Raghu,"Door No 6-2-277, Kakaji Colony, Hanamkonda, Warangal - 506001, Opposite Vijaya Talkies",Dentist,7947396662,Open 24hrs
+1063A,Cure Dental Hospital,Dr.Ravi Kiran Naama,"Door No 5-11-450, KUC Junction, Hanamkonda, Warangal - 506001, Beside Reliance Digitals, Near KUC X Road?",Dentist,9014506112,10:00 am - 8:30 pm
+1064A,Sai Sree Hospital,Dr.Sai Kiran,"Mandi Bazar, Jayaprakash Narayan Road, Girmajipet, Warangal, Telangana 506002",General Physician,0870 666 1666,9:00AM-8:00PM
+1009A,Latha Venkat Ortho & General Clinic,Dr.K.Venkataswamy,"House No 11-26-198, M G Road, Warangal - 506002, Opposite MGM Hospital 2nd Gate, Beside Warta Office?",General Physician,9550125222,Open 24hrs
+1065A,Aravindha Superspeciality Hospital,Dr.Aravindha,"H.No : 1-8-34/1, Ward No 1, Balasamudram, Hanamkonda, Warangal - 506001, Opp : Hayagrivachary Grounds?",General Physician,7947397040,Open 24hrs
+1066A,Ramesh Hospital,Dr.Kuramerla Ramesh,"6-2-40, Lane No:3, Kakaji Colony, Hanamkonda, Warangal - 506001, Opposite 2nd Bus Depot, Near Vijaya Theatre",General Physician,9154471981,Open 24hrs
+1067A,Arogya Speciality Clinic,Dr.Rohith Reddy,"Subedari, Waddepally Road, Teachers Colony Phase 1, Hanamkonda, Warangal - 506001, Near Teachers Colony Phase 1 Arch?",General Physician,7947448586,"10:00 am - 12:00 pm,6:00 pm - 9:00 pm"
+1030A,MaxCare Hospital,Dr.Sashi,"Door No 6-1-236, Hanamkonda, Warangal - 506001, Opposite Kuda Office, Near Ashoka Hotel?",Gastroenterologist,7947396583,Open 24hrs
+1018A,Jaya Hospital,Dr.Prakash,"Vijaya Talkies Road, Hanamkonda, Warangal - 506001, Hanamkonda Chowrasta?",Gastroenterologist,9866611333,Open 24hrs
+1047A,Vishnu Sahasra Hospital,Dr.Vishu Kumar,"1-8-81, Balasamudram, Hanamkonda, Warangal - 506001, Near Swimming Pool",Gastroenterologist,9515378555,Open 24hrs
+1064A,Sai Sree Hospital,Dr.Sai Kiran,"Mandi Bazar, Jayaprakash Narayan Road, Girmajipet, Warangal, Telangana 506002",Gastroenterologist,0870 666 1666,9:00AM-8:00PM
+1030A,MaxCare Hospital,Dr.Sashi,"Door No 6-1-236, Hanamkonda, Warangal - 506001, Opposite Kuda Office, Near Ashoka Hotel?",Rheumatologist,7947396583,Open 24hrs
+1018A,Jaya Hospital,Dr.Prakash,"Vijaya Talkies Road, Hanamkonda, Warangal - 506001, Hanamkonda Chowrasta?",Rheumatologist,9866611333,Open 24hrs
+1032A,Amrutha Multispeciality Hospital,Dr.Rakesh,"H.no 6-2-84, Vijaya Talkies Road, Kakaji Colony, Hanamkonda, Warangal - 506001, BESIDE Vijaya Talkies?",Rheumatologist,9393951289,Open 24hrs
+1030A,MaxCare Hospital,Dr.Sashi,"Door No 6-1-236, Hanamkonda, Warangal - 506001, Opposite Kuda Office, Near Ashoka Hotel?",Pulmonologist,7947396583,Open 24hrs
+1018A,Jaya Hospital,Dr.Prakash,"Vijaya Talkies Road, Hanamkonda, Warangal - 506001, Hanamkonda Chowrasta?",Pulmonologist,9866611333,Open 24hrs
+1015A,Ajara Hospital,Dr.Sri Laxmi,"Mulugu Road, Hanamkonda, Warangal - 506001, Mulugu Road Opp Sub Station",Pulmonologist,9391009705,Open 24hrs
+1016A,Adithya Hospital,Dr.Aditya,"ADITYA HOSPITAL, Hanamkonda, Warangal - 506001, Kishanpura, Near Petrol Pump, Opposite Police Parade Grounds?",Pulmonologist,8367039108,Open 24hrs
