@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title> Login</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<style>
+    .login-page {
+  width: auto;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #fc9730;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #ff8100;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  text-decoration: none;
+}
+
+#pos{
+  top:50%;
+}
+@media only screen and (min-device-width : 300px) and (max-device-width : 700px)  {
+  #pos{
+    top:60%;
+  }
+}
+
+</style>
+</head>
+<body>
+<section class="header">
+  <nav>
+    <a href="index.html"><img src="images/s2d.png" class="logo"></a>
+  <div class="nav-links" id="navLinks">
+  <i class="fa fa-times"onclick="hideMenu()"></i>
+  <ul>
+       <li><a href="index.html">Home</a></li>
+     <li><a href="services.html">Services</a></li>
+     <li><a href="projects.html">Project</a></li>
+     <li><a href="team.html">Team</a></li>
+ </ul>
+   </div>	<i class="fa fa-bars" onclick="showMenu()" ></i>
+</nav>
+<div class="text-box" id="pos" style="font-size: 20px;color: #fc9730; display: block;">
+  
+  <div  id="login_page" style="display: block;">
+    <h3 style="color: #fc9730;">HOSPITAL APPOINTMENT REQUESTS</h3>
+    
+    <div class="form">
+          <form class="login-form" id="form">
+              <h2 style="color: #fc9730; padding: 25px;">Login</h2>
+            <input type="text" id="hid" value="" placeholder="Hospital Id"/>
+            <input type="password" id="password" value="" placeholder="Password" />
+            <button  value="Reset" onclick="login()">login</button>
+            <p class="message" >Note : <a style="color: #fc9730;" >This Login is only for hospitals</a></p>
+            <p class="message" id="err" style="
+            margin-block-start: 0em;
+            margin-block-end: 0em;padding: 10px 0px 0px 0px;
+            font-size: 15px; font-weight: bold; color: #ef3b3a; display: none;">Invalid Login! <br><span style="font-size: 15px;">Please Check details again !</span> </p>
+          </form>
+        </div>
+      </div>    
+</div>
+<div class="text-box"  style="font-size: 30px;display: none;" id="loggedin" >
+    <div class="course-col"  onclick="window.location.href='data_from_bot.html';">
+      <h4 id="hid_l"></h4>
+      <h4 style="font-size: 20px;">Your Already Logged in</h4>
+    </div>
+</div>
+
+</section>
+
+
+
+<script>
+  window.location.replace("?#");
+   var  navLinks = document.getElementById("navLinks");
+   
+   function showMenu(){
+   	navLinks.style.right="0";
+	   navLinks.style.visibility="visible";
+   
+   }
+   
+   function hideMenu(){
+   navLinks.style.right="-200px";
+   navLinks.style.visibility="hidden";
+   
+   }
+   console.log(hid);
+   var hid = sessionStorage.getItem("hid");
+   console.log(hid);
+   if(hid == "logouted" || hid==null){
+      document.getElementById("pos").style.display="block";
+      document.getElementById("loggedin").style.display="none";
+   }
+  else{
+      document.getElementById("pos").style.display="none";
+      document.getElementById("hid_l").innerHTML=hid;
+      document.getElementById("loggedin").style.display="block";
+     
+   }
+   
+   function login(){
+             var hid=document.getElementById("hid").value.toUpperCase();;
+             var pswd=document.getElementById("password").value.toUpperCase();;
+             
+             if(
+                 (hid == '1001A' && pswd=='1001A' )||
+                 (hid == '1002A' && pswd=='1002A' )||
+                 (hid == '1003A' && pswd=='1003A' )||
+                 (hid == '1004A' && pswd=='1004A' )||
+                 (hid == '1055A' && pswd=='1055A' )||
+                 (hid == '1027A' && pswd=='1027A' )||
+                 (hid == '1064A' && pswd=='1064A' )||
+                 (hid == 'ADMIN' && pswd=='ADMIN' )
+             ){
+                sessionStorage.setItem("hid", hid);
+                document.getElementById("err").style.display="none";
+                form.action='data_from_bot.html';
+                console.log("success");
+             }
+             else{
+                document.getElementById("err").style.display="block";
+                
+                $('#err').fadeIn('slow', function () {
+                    $(this).delay(2000).fadeOut('slow');
+                  });}
+         }
+   </script>
+
+</body>
+</html>

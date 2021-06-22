@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Services</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./css/style.css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+	 .course-col{
+    cursor: default ;
+  }
+  .course-col:hover {
+    box-shadow: none;
+    cursor: default ;
+  }
+  .img_a{
+  padding: 5px;
+  box-shadow: 0px 0px 9px 0px #a9a9a9;
+  transition: box-shadow transform 0.5s;
+  transition: transform .2s;
+  transition-timing-function: ease-in-out;
+  
+	border-radius: 5px;
+  overflow: hidden;
+  
+}
+.img_a:hover{
+  box-shadow: 0 0 20px 0px rgb(252 178 101);
+}
+.joinus_btn{
+	background: #fc9730 !important;
+ border-radius: 5px;
+}
+.joinus_btn:hover{
+	background: #ff8100 !important;
+}
+</style>
+</head>
+<body>
+<section class="sub-header">
+<nav style="display: flex;">
+     <a href="index.html"><img src="images/s2d.png" class="logo"></a>
+	 <div class="nav-links" id="navLinks">
+	 <i class="fa fa-times"onclick="hideMenu()"></i>
+	 <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Project</a></li>
+        <li><a href="team.html">Team</a></li>
+  </ul>
+    </div>	<i class="fa fa-bars" onclick="showMenu()" ></i>
+</nav>
+
+<h1>DEMOCRACY HEALTH FOR ALL</h1>
+<P style="color:white;">( Reaching out the rurals health sustainabilty )</P>
+</section>
+
+<!----------- players ------->
+<section class="course">
+<h1>PORTAL : Accessible for Hospitals Colloborated </h1>
+<div class="row">
+<div class="course-col"  onclick="window.location.href='login.html';">
+           <!-- <img src="images/David.png"> -->
+        <h3>HOSPITAL APPOINTMENT REQUESTS</h3>
+</div>
+<div class="course-col"  onclick="window.location.href='login_medical_students.html';">
+           <!-- <img src="images/David.png"> -->
+        <h3>MEDICAL COLLEGES CAMPS</h3>
+</div>
+<div class="course-col"  onclick="window.location.href='Aanganwadi.html';">
+           <!-- <img src="images/David.png"> -->
+        <h3>AANGANWADI</h3>
+</div>
+</div>
+<h4 style="border: #fc9730 solid; text-align: left; padding: 15px;">
+	This portal Accessible to the Hospitals which are under our recommendation system-bot that reaches rurual people and helps in appointment booking based on health issue.
+</h4>
+  
+</section>
+<!------- Facilities -------->
+
+<section class="facilities">
+      <h1 style="font-size: 30px;"> OUR HOSPITAL RECOMMENDATION SYSTEM</h1>
+	  <p> Ensuring 3A's</p>
+	  <div class="row">
+		<div class="course-col">
+			  <h3>Availability</h3> 
+		</div>
+		<div class="course-col">
+			  <h3>Accessibility</h3> 
+		</div>
+		<div class="course-col">
+			  <h3>Affordability</h3> 
+		</div>
+	  </div> 
+</section>	
+
+<section class="facilities">
+      <h1 style="font-size: 30px;">Pie Chart's</h1>
+	  <div class="row">
+		<div class="course-col" style="background: transparent;padding: 5px;">
+			<div class="img_a" >
+				<img style="width: 100%;" src="./images/chart_1.jpeg" alt=" ">
+			  </div>
+			  <h3>Hospitals count</h3> 
+		</div>
+		<div class="course-col" style="background: transparent;padding: 5px;">
+			<div class="img_a" >
+				<img style="width: 100%;" src="./images/chart_2.jpeg" alt=" ">
+			  </div>
+			  <h3>Doctor category count</h3> 
+		</div>
+		<div class="course-col" style="background: transparent;padding: 5px;">
+			<div class="img_a" >
+				<img style="width: 100%;" src="./images/chart_3.jpeg" alt=" ">
+			  </div>
+			  <h3>Hospitals count</h3> 
+		</div>
+		
+	  </div> 
+</section>	
+
+<section class="facilities" style="text-align: left;padding-top:0px">
+	<h1>Join us |</h1>
+		<div class="gal-btm">
+			<div class="map-home">
+				<div class="col-md-6 login-pad">
+					<h2>Drop Us A Message</h2>
+					<form>
+								<input type="text" value="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" required="">
+								<input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+								<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Subscribe in our Newsletter</label>
+								<textarea placeholder="Message" required=""></textarea>
+								<input class="joinus_btn"  type="submit" value="SEND">
+					</form>
+				</div>
+				<div class="col-md-6 drop-pad sign-gd-two">
+					<h2>Contact Info</h2>
+					<p>IN CASE YOU DON’T GET A REPLY AFTER FILLING THE FORM WITHIN 2 DAYS THEN SEND A MESSAGE OR CALL ON THE NUMBERS GIVEN HERE</p>
+					<ul>
+						<li><i style="border: 0px; color:#fc9730; font-size: 20px;" class="fa fa-map-marker"></i>Address : Warangal.</li>
+						<li><i style="border: 0px; color:#fc9730; font-size: 20px;" class="fa fa-envelope"></i>Email : <a href="mailto:info@example.com">abc@s2d.in</a></li>
+						<li><i style="border: 0px; color:#fc9730; font-size: 20px;" class="fa fa-phone"></i>Phone : +1234 567 567</li>
+<!-- 					
+						<li><i class="glyphicon glyphicon-envelope" style="color: #fc9730; border-color: #fc9730;"  aria-hidden="true"></i>Email : <a href="mailto:info@example.com">abc@s2d.in</a></li>
+						<li><i class="glyphicon glyphicon-earphone" style="color: #fc9730; border-color: #fc9730;"  aria-hidden="true"></i>Phone : +1234 567 567</li> -->
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2482.432383990807!2d0.028213999961443994!3d51.52362882484525!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1423469959819"></iframe>
+			</div>
+		</div>
+</section>  
+
+
+<!-----------JavaScript for Toggle Menu ------------->
+<script>
+   var  navLinks = document.getElementById("navLinks");
+   
+   function showMenu(){
+   	navLinks.style.right="0";
+	   navLinks.style.visibility="visible";
+   
+   }
+   
+   function hideMenu(){
+   navLinks.style.right="-200px";
+   navLinks.style.visibility="hidden";
+   
+   }
+   
+   
+   
+   </script>
+
+
+
+</body>
+</html>

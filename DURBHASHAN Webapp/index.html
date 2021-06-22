@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>DURBHASHAN</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	.course-col{
+    cursor: default ;
+  }
+  .course-col:hover {
+    box-shadow: none;
+    cursor: default ;
+  }
+.img_anganwadi{
+	padding-bottom: 0px !important;
+  padding: 5px;
+  box-shadow: 0px 0px 9px 0px #a9a9a9;
+  transition: box-shadow transform 0.5s;
+  transition: transform .2s;
+  transition-timing-function: ease-in-out;
+  
+  overflow: hidden;
+  
+}
+.img_anganwadi:hover{
+  box-shadow: 0 0 20px 0px rgb(252 178 101);
+  
+}
+.img_a{
+  width: 100% !important;
+  height: 100%;
+  
+  transition: transform .8s; 
+  
+}
+.img_a:hover{
+  transform: scale(1.1); 
+}
+</style>
+</head>
+<body>
+<section class="header">
+<nav>
+     <a href="index.html"><img src="images/s2d.png" class="logo"></a>
+	 <div class="nav-links" id="navLinks">
+	 <i class="fa fa-times" onclick="hideMenu()"></i>
+	 <ul>
+	      <li><a href="index.html">Home</a></li>
+		  <li><a href="#about">About</a></li>
+		  <li><a href="services.html">Services</a></li>
+		  <li><a href="projects.html">Project</a></li>
+		  <li><a href="team.html">Team</a></li>
+	</ul>
+    </div>	<i class="fa fa-bars" onclick="showMenu()" ></i>
+</nav>
+
+<div class="text-box">
+<h1> DURBHASHAN</h1>
+<p> HEALTHCARE GUIDING BOOTH FOR RURAL PEOPLE (AI Based).</p>
+<a href="services.html" class="hero-btn">Visit Us To Know More</a>
+
+
+
+</section>
+<!------------------------About----------------->
+<section class="course" id="about">
+<h1>ABOUT</h1>
+
+<div style="margin-top: 3%;">
+	<h3>Our Vision</h3>
+    <p>
+		<i class="fa fa-heart-o"></i> Our aim is to do our part in sustaining the rural areas by connecting them to the communities.
+    </p>
+</div>
+
+<div style="margin-top: 3%;">
+	<h3>Our Mission</h3>
+    <p>
+		<i class="fa fa-heart-o"></i> Being engineering peer, to serve our prior duty by implementing technologies in real world by making lives better.
+    </p>
+</div>
+</section>
+<!------------------------Servies----------------->
+<section class="course">
+<h1>SERVICES</h1>
+<p> All services interfaced with our AudioBot at rural areas !</p>
+
+
+<div class="row">
+  <div class="course-col"  onclick="window.location.href='services.html';">
+        <h3>Rural Health Care</h3>
+	     <img src="./images/healthicon.png" alt="" width="60px" height="60px">
+		 
+	</div>
+  
+  <div class="course-col">
+        <h3>Serving Malnutrition</h3>
+		<img src="./images/malnuicon.png" alt="" width="80px" height="80px">
+		
+  </div>
+  
+  <div class="course-col">
+        <h3>Updates New</h3>
+		<img src="./images/updates.png" alt="" width="60px" height="60px">
+		
+  </div>
+</div>
+</section>
+
+
+<section class="facilities">
+     <h1>GALLERY</h1>
+	 <p> Images</p>
+	 <div class="row">
+		<div class="course-col" style="background: transparent;padding: 5px;">
+		  <div class="img_anganwadi" >
+			<img class="img_a" src="./images/gallery_1.jpeg" alt=" ">
+		  
+		  </div>
+		  <!-- <h3></h3>  -->
+		</div>
+		
+		<div class="course-col" style="background: transparent;padding: 5px;">
+		  <div class="img_anganwadi" >
+			<img class="img_a" src="./images/gallery_2.jpeg" alt=" ">
+		  
+		  </div>
+		  <!-- <h3>Weight</h3>  -->
+		</div>
+		
+		<div class="course-col" style="background: transparent;padding: 5px;">
+		  <div class="img_anganwadi">
+			<img class="img_a" src="./images/gallery_3.jpeg" alt=" ">
+		  
+		  </div>
+		  <!-- <h3>Check up</h3>  -->
+		</div>
+		
+		<div class="course-col" style="background: transparent;padding: 5px;">
+		  <div class="img_anganwadi">
+			<img class="img_a" src="./images/gallery_4.jpeg" alt=" ">
+		  
+		  </div>
+		  <!-- <h3>Check up</h3>  -->
+		</div>
+		
+		  
+		</div> 
+  </section>	
+
+
+<!-------- campus ------>
+
+
+
+<!-- <section class="facilities">
+<h1> Join Orange Army now!!</h1>
+	  <p> Download the App and show your support</p>
+	  <img src="images/sponser.png">
+</section> -->
+
+<!------ Footer ------>
+<section class ="footer">
+ <h4> About Us<h4>
+ <p> info </p>
+ <div class="icons">
+              <i class="fa fa-facebook"></i>
+			  <i class="fa fa-twitter"></i>
+			  <i class="fa fa-instagram"></i>
+			  <i class="fa fa-linkedin"></i>
+ </div>
+ <div style="display: flex; justify-content: center;">
+ <p> Made by <i class="fa fa-heart-o"></i></p><img src="./images/s2d.png" alt="" width="70px" height="35px">
+</div>
+</sectio  n>  
+
+
+<!-----------JavaScript for Toggle Menu ------------->
+
+<script>
+   var  navLinks = document.getElementById("navLinks");
+	function showMenu(){
+   	navLinks.style.right="0";
+	   navLinks.style.visibility="visible";
+   
+   }
+   
+   function hideMenu(){
+   navLinks.style.right="-200px";
+   navLinks.style.visibility="hidden";
+   
+   }
+   
+   </script>
+
+</body>
+</html>
