@@ -5,6 +5,7 @@ import os
 from googletrans import Translator
 from gtts import gTTS
 from playsound import playsound
+import numpy as np
 tr = Translator()
 lang="en"
 def translation_user(text, src_lang, dest_lang):
